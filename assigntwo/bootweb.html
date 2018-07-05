@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>my website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body style="background-color: black;">
+
+    <header class="jumbotron text-center mt-5 " style="background-color: black; color: grey; font-size: 35px; padding: 0;">
+        <h1 class="text-center">CAPTURE IT...</h1>
+        <p>..Save your memories..</p>
+    </header>
+    <nav class="navbar navbar-expand-md bg-warning  navbar-light text-dark sticky-top" style="font-size: 20px;">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="bootweb.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="boot2.html">What we do</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="loc.html">location </a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <section id="demo" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-fluid" src="bk1.jpg" style="width:1500px;height:400px;" />
+                <div class="carousel-caption">
+                    <h3>Still Your Moments..</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="bk2.jpg" style="width:1500px;height:400px;" />
+                <div class="carousel-caption">
+                    <h3>Keep Your Memories Safe..</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="bk3.jpg" style="width:1500px;height:400px;" />
+                <div class="carousel-caption">
+                    <h3>Capture Your Smiles..</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="bk4.jpg" style="width:1500px;height:400px" />
+                <div class="carousel-caption">
+                    <h3>Click It...</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container ">
+        <div class="text-center">
+            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal" style="margin-top:10px;">FEEDBACK</button>
+        </div>
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Your Feedback Please!!</h4>
+                        <button type="button" class="close" data-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form>
+                            <label for="fname">Name</label>
+                            <br>
+                            <input type="text" id="fname" name="name">
+                            <br>
+                            <label for="fname">Email ID</label>
+                            <br>
+                            <input type="text" id="fname" name="mail">
+                            <br>
+                            <label for="fname">Your Feedback Please...</label>
+                            <br>
+                            <textarea name="message" rows="10" cols="30"></textarea>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="main-footer" class="bg-warning mt-4 text-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="py-4">
+                        <p>CATCH US ON...</p>
+                        <i class="fa fa-facebook-square"></i>
+                        <i class="fa fa-twitter-square"></i>
+                        <i class="fa fa-google-plus-square"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
