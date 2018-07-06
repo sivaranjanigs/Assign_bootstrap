@@ -1,0 +1,14 @@
+nav{
+    font-size: 20px;
+    
+}
+body{
+    background-color: black;
+}
+.card1 img, .card2 img, .card3 img{
+    height: 500px;
+}
+.carousel-item img{
+    width:1600px;
+    height:250px;
+}
